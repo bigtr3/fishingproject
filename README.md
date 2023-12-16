@@ -1,16 +1,36 @@
 # fishing
 
-A new Flutter project.
+한이음 멘토링 프로젝트 앱 구현
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+프로젝트 소개
 
-A few resources to get you started if this is your first Flutter project:
+  수많은 낚시인들을 위한 낚시 조끼를 제작한다. 낚시찌를 물고기가 물었을 경우, 그 움직임을 감지하여 어플리케이션을 통해 진동 및 알람이 간다. 또한, 낚시 조끼에 연결된 장치에 진동이 울리도록하여 입질이 왔음을 알린다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+개발 배경
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+및 필요성
+
+늘어나는 낚시인들을 위한 낚시 조끼이다. 현존하는 낚시찌들은 날이 흐리거나 기상 상황이 좋지 않을 경우, 낚시찌에 물고기가 잡혔는지 여부를 확인하기 어렵다. 따라서 낚시 조끼와 휴대폰 어플리케이션을 통해 보다 확실히 입질 여부를 알릴 수 있도록 한다.
+
+프로젝트 특·장점
+
+기존의 존재하는 낚시찌만으로의 입질여부 확인 어려움을 보완할 수 있는 기술이다.
+
+주요 기능
+
+① 디바이스 - 움직임 감지, 구분 및 알림용 디바이스
+② 어플리케이션 - 디바이스로부터 알림을 받을 수 있는 어플리케이션
+③ 출력 디바이스 - 디바이스로부터 알림을 받고 진동/소리로 출력해 주는 디바이스
+
+기대효과 및 활용 분야
+
+사업 분야 - 700만명의 낚시인들을 위한 편리하고 안전한 입질 감지 시스템 지원
+
+
+화면은 홈 화면, 로그인/회원가입 화면, 낚시 기록 확인 화면, 낚시 시간 측정 화면, 알림 화면으로 총 5개의 화면으로 구성되어있다. 낚시 찌에 있는 블루투스와 연결하여 낚시 찌에 입질이 감지되었을 때, 앱에서 알람이 울리도록 알려준다. (오류로 일부 구현)
+
+https://github.com/bigtr3/fishingproject/assets/117579065/cda8b7fa-6985-40bb-b656-ffb266b849c5
+
+
